@@ -1,0 +1,233 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fceefc;
+    height: 100%;
+}
+
+.carousel-indicators .active {
+    background-color: #ffc3b0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+}
+
+#terno {
+    border-right: 2px solid #d8bfd8;
+}
+
+#vestido {
+    background-image: url(../img/Icons/02.png);
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 67px;
+}
+
+#casa {
+    background-image: url(../img/casamentologoo.jpg);
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bot:hover {
+    color: #ffc3b0 !important;
+    transform: scale(1.1);
+}
+
+.bot {
+    transition: 0.2s;
+}
+
+#buque {
+    background-image: url(../img/Icons/03.png);
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 67px;
+}
+
+.sumir {
+    display: none;
+}
+
+#bug {
+    display: none;
+}
+
+#grande {
+    display: none;
+}
+
+@media(min-width:768px) {
+    .sumir {
+        display: flex;
+    }
+
+    #Inicio {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    #grande {
+        display: flex;
+    }
+
+    #pequeno {
+        display: none;
+    }
+
+    .cartao {
+        width: 14rem !important;
+    }
+}
+
+.mostrar {
+    display: none;
+}
+
+@media(min-width:992px) {
+    .hide {
+        display: none;
+    }
+
+    .mostrar {
+        display: flex;
+    }
+
+    #cadastro {
+        margin-top: 5rem !important;
+        padding-top: 5rem;
+        box-shadow: none !important;
+    }
+
+    .cartao {
+        width: 18rem !important;
+    }
+
+    .ajuste {
+        padding-left: 3rem;
+    }
+}
+
+#cadastro {
+    margin-top: 1rem;
+}
+
+@media(min-width:500px) {
+    #carousel {
+        height: unset !important;
+    }
+}
+
+@media(max-width:576px) {
+    .p-0 {
+        padding-top: 0rem !important;
+        padding-left: 1rem !important;
+        padding-bottom: 0rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+#carousel {
+    height: 170px;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffc3b0;
+}
+
+.lista {
+    list-style: none;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.blur {
+    filter: blur(10px);
+}
+
+.bg-text {
+    background-color: rgb(122, 119, 119);
+    /* Fallback color */
+    background-color: rgba(122, 119, 119, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 2px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+#cadastre {
+    float: left;
+}
+
+.modal-footer-gui {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 1rem;
+
+}
+
+.modal-header-gui {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem
+}
+
+
+.cor-clara {
+    color: #ffc3b0;
+}
+
+.cor-meio {
+    color: #d8bfd8;
+}
+
+.cor-escura {
+    color: #222222 !important;
+}
+
+.bg-claro {
+    background: #f07cdd;
+}
+
+.bg-meio {
+    background: #ffffff;
+}
+
+.bg-escuro {
+    background: #5b5677;
+}
+
+.sombra {
+    -webkit-box-shadow: 3px 3px 26px -8px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 3px 3px 26px -8px rgba(0, 0, 0, 0.32);
+    box-shadow: 3px 3px 26px -8px rgba(0, 0, 0, 0.32);
+}

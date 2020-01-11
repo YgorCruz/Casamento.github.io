@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../Lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <title>Casamento</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #fceefc;
+            height: 100%;
+        }
+
+        .b {
+            border-top: 4px solid #ffc3b0;
+        }
+
+        .barra {
+            position: fixed;
+            top: 0 !important;
+            z-index: 1030;
+            width: 100%;
+        }
+
+        .botao {
+            display: none;
+        }
+
+        .carousel-indicators .active {
+            background-color: #ffc3b0;
+        }
+
+        @media(min-width:992px) {
+            .botao {
+                display: flex;
+            }
+
+        }
+
+        @media(min-width:500px) {
+            #carousel {
+                height: unset !important;
+            }
+        }
+
+        @media(max-width:576px) {
+            .p-0 {
+                padding-top: 0rem !important;
+                padding-left: 1rem !important;
+                padding-bottom: 0rem !important;
+                padding-right: 1rem !important;
+            }
+        }
+
+        #carousel {
+            height: 170px;
+        }
+
+        .navbar-dark .navbar-brand {
+            color: #ffc3b0;
+        }
+
+        .cor-clara {
+            color: #ffc3b0;
+        }
+
+        .cor-meio {
+            color: #d8bfd8;
+        }
+
+        .cor-escura {
+            color: #222222 !important;
+        }
+
+        .bg-claro {
+            background: #f07cdd;
+        }
+
+        .bg-meio {
+            background: #ffffff;
+        }
+
+        .bg-escuro {
+            background: #5b5677;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class=" navbar navbar-expand-lg navbar-dark bg-escuro p-0" id="Inicio">
+
+            <div class="container">
+
+                <a class="navbar-brand h1 mb-0 " href="../../Index.html"><img src="../../img/Index/logo.png"
+                        width="45px" height="40px" alt=""></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSite">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="NoivaEnoivo.html">Noiva/Noivo</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggler" data-toggle="dropdown" id="navDrop">Parceiros</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../Fotografos.html">Fotografos</a>
+                                <a class="dropdown-item" href="../Buffet/buffet.html">buffet</a>
+                                <a class="dropdown-item" href="../Viagem.html">Viagem</a>
+                            </div>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Locais.html">Locais</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main class="b">
+        <div id="carousel">
+            <div id="carouselSite" class="carousel slide d-block h-100" data-ride="carousel">
+
+                <ul class="carousel-indicators">
+                    <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselSite" data-slide-to="1"></li>
+                    <li data-target="#carouselSite" data-slide-to="2"></li>
+                </ul>
+
+
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active h-100">
+
+                        <img src="../../img/NoivaNoivo/Ternos/vila.jpg" class="img-fluid d-block w-100 h-100" alt="">
+
+                    </div>
+
+                    <div class="carousel-item carousel-fade h-100">
+
+                        <img src="../../img/NoivaNoivo/Ternos/cia.jpg" class="img-fluid d-block w-100 h-100" alt="">
+
+                    </div>
+
+                    <div class="carousel-item carousel-fade h-100">
+
+                        <img src="../../img/NoivaNoivo/Ternos/fatto.jpg" class="img-fluid d-block w-100 h-100" alt="">
+
+                    </div>
+                </div>
+
+                <a href="#carouselSite" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a href="#carouselSite" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Avançar</span>
+                </a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-escuro b mb-4" id="Inicio">
+
+            <div class="container">
+
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="Menu">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item col-2 ml-5">
+                            <a class="nav-link " href="noivaEnoivo.html">Vestidos</a>
+                        </li>
+                        <li class="nav-item col-2 ml-5">
+                            <a class="nav-link" href="saloes.html">Salões</a>
+                        </li>
+                        <li class="nav-item col-2 ml-5">
+                            <a class="navbar-brand h1 mb-0" href="ternos.html">Ternos</a>
+                        </li>
+                        <li class="nav-item col-2 ml-5">
+                            <a class="nav-link" href="acessorios.html">Acessorios</a>
+                        </li>
+                        <li class="nav-item col-2 ml-5">
+                            <a class="nav-link" href="sapatos.html">Sapatos</a>
+                        </li>
+                        <li class="nav-item col-2 ml-5">
+                            <a class="nav-link" href="lazer.html">Lazer</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+    </main>
+
+    <footer class="container-fluid bg-escuro">
+        <div class="container">
+            <div class="row text-center bg-escuro">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="cor-clara">Localização</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="list-group list-unstyled">
+                                <li class="cor-meio">
+                                    Cidade: Guaratinguetá-SP
+                                </li>
+                                <li class="cor-meio">
+                                    Bairro: Jardim Esperanca
+                                </li>
+                                <li class="cor-meio">
+                                    Rua: Av. Prof. João Rodrigues
+                                </li>
+
+                                <li class="cor-meio">
+                                    Numero: 1501
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="cor-clara">Social</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p> <i class="fab fa-facebook-f fa-lg cor-meio"> Casamento_Ygui</i></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p> <i class="fab fa-instagram fa-lg cor-meio"> Ygui_Oficial</i></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p> <i class="fab fa-twitter-square fa-lg cor-meio"> Ygui_Oficall</i></p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="cor-clara">Contato</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="list-group list-unstyled ">
+                                <li>
+                                    <p class="cor-meio">tel:(XX)XXXX-XXXX</p>
+                                </li>
+
+                                <li>
+                                    <p class="cor-meio">tel:(XX)XXXX-XXXX</p>
+                                </li>
+
+                                <li>
+                                    <p class="cor-meio"><i class="far fa-envelope fa-lg "></i>Casamento_FAQ@hotmail.com
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="../../Lib/jquery/jquery.min.js"></script>
+    <script src="../../Lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

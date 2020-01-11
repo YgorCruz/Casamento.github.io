@@ -1,0 +1,169 @@
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    .carousel-inner .active,
+    .carousel-inner .active+.carousel-item,
+    .carousel-inner .active+.carousel-item+.carousel-item {
+        display: block;
+    }
+
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
+        transition: none;
+    }
+
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.3333%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* Esquerda */
+    .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left+.carousel-item,
+    .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
+    .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    /* o item oculto mais à direita deve estar na posição de animações */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* Direita */
+    .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right+.carousel-item,
+    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
+    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 1%;
+        color: #fff;
+        text-align: center;
+        opacity: 0.5;
+    }
+
+    .cards {
+        display: none;
+    }
+
+    .btn {
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+    }
+
+    .btn-primary {
+        color: black !important;
+        background-color: #fff !important;
+        border-color: #5b5677 !important;
+    }
+
+    .btn:hover {
+        background-color: #5b5677 !important;
+        color: white !important;
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    .principal {
+        display: none;
+    }
+
+    div,
+    .cards {
+        display: inline-block;
+        margin-top: 5px;
+    }
+}
+
+.mt-5,
+.my-5 {
+    margin-top: 5rem !important;
+}
+
+.cor-clara {
+    color: #ffc3b0;
+}
+
+.cor-meio {
+    color: #d8bfd8;
+}
+
+.cor-escura {
+    color: #222222 !important;
+}
+
+.bg-claro {
+    background: #f07cdd;
+}
+
+.bg-meio {
+    background: #fceefc;
+}
+
+.bg-escuro {
+    background: #5b5677;
+}
+
+#primeiro {
+    margin-top: 4rem !important;
+}
+
+.m-7 {
+    margin: 6rem !important;
+}
+
+.titulo {
+    font-size: 28px;
+    font-weight: 200;
+    font-family: gotham, helvetica neue, Arial, Helvetica, sans-serif;
+    margin-top: 5rem;
+}
+
+@media(max-width:576px) {
+    .p-0 {
+        padding-top: 0rem !important;
+        padding-left: 1rem !important;
+        padding-bottom: 0rem !important;
+        padding-right: 1rem !important;
+    }
+}

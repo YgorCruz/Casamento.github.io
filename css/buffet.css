@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fceefc;
+  height: 100%;
+}
+
+.ajuste {
+  padding-left: 0;
+  margin-top: 3rem;
+  padding-right: 0;
+}
+
+.b {
+  border-top: 4px solid #ffc3b0;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, .75);
+}
+
+a {
+  background-color: transparent;
+  color: #a3a3a3
+}
+
+.ativo:hover {
+  color: #ffc3b0;
+}
+
+.botao {
+  display: none;
+}
+
+.carousel-indicators .active {
+  background-color: #4b4767;
+}
+
+@media(min-width:992px) {
+  .botao {
+    display: flex;
+  }
+
+  .ajuste {
+    padding-left: 25px !important;
+  }
+
+}
+
+@media(min-width:500px) {
+  #carousel {
+    height: unset !important;
+  }
+}
+
+@media(max-width:576px) {
+  .p-0 {
+    padding-top: 0rem !important;
+    padding-left: 1rem !important;
+    padding-bottom: 0rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+@media(min-width:768px) {
+  .sumir {
+    display: none;
+  }
+
+  .ajuste {
+    padding-left: 3rem;
+    align-items: center;
+
+  }
+
+  .aparecer {
+    display: flex !important;
+  }
+}
+
+.aparecer {
+  display: none;
+}
+
+#carousel {
+  height: 170px;
+}
+
+.navbar-dark .navbar-brand {
+  color: #ffc3b0;
+}
+
+.cor-clara {
+  color: #ffc3b0;
+}
+
+.cor-meio {
+  color: #d8bfd8;
+}
+
+.cor-escura {
+  color: #222222 !important;
+}
+
+.bg-claro {
+  background: #f07cdd;
+}
+
+.bg-meio {
+  background: #ffffff;
+}
+
+.bg-escuro {
+  background: #5b5677;
+}
+
+.bt {
+  border-top: 4px solid #5b5677;
+}

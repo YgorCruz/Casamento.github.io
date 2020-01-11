@@ -1,0 +1,303 @@
+.cor-clara {
+    color: #ffc3b0;
+}
+
+.cor-meio {
+    color: #d8bfd8;
+}
+
+.cor-escura {
+    color: #222222 !important;
+}
+
+.bg-claro {
+    background: #f07cdd;
+}
+
+.bg-meio {
+    background: #fceefc;
+}
+
+.bg-escuro {
+    background: #5b5677;
+}
+
+.mt-6 {
+    margin-top: 5rem !important;
+}
+
+.card {
+    box-shadow: 0 12px 20px rgba(68, 68, 68, 0.2);
+    height: 25rem;
+}
+
+.titulo {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#BoraBora {
+    margin-top: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+#FN {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#Veneza {
+    margin-top: 4.8rem;
+    margin-bottom: 1rem;
+}
+
+#Gramado {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+#HardRock {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#Bupitanga {
+    margin-top: 3.2rem;
+    margin-bottom: 1rem;
+}
+
+#Laguna {
+    margin-top: 3.2rem;
+    margin-bottom: 1rem;
+}
+
+#HardRock02 {
+    margin-top: 3.2rem;
+    margin-bottom: 1rem;
+}
+
+#SC {
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+#CJ {
+    margin-top: 3.03em;
+    margin-bottom: 1rem;
+}
+
+#Maceio {
+    margin-top: 4.8em;
+    margin-bottom: 1rem;
+}
+
+#F {
+    margin-top: 4.8em;
+    margin-bottom: 1rem;
+}
+
+@media(min-width: 768px) {
+    .col-lg-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .aparecer {
+        display: none;
+    }
+
+    .btn {
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+    }
+
+    .btn-primary {
+        color: black !important;
+        background-color: #fff !important;
+        border-color: #5b5677 !important;
+    }
+
+    .btn:hover {
+        background-color: #5b5677 !important;
+        color: white !important;
+    }
+}
+
+@media(max-width: 768px) {
+    .ultimo {
+        display: none;
+    }
+
+    .col-lg-3 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    #BoraBora {
+        margin-top: 2.8rem;
+        margin-bottom: 1rem;
+    }
+
+    #FN {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #Veneza {
+        margin-top: 6.4rem;
+        margin-bottom: 1rem;
+    }
+
+    #Gramado {
+        margin-top: 4.55rem;
+        margin-bottom: 1rem;
+    }
+
+    #HardRock {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #Bupitanga {
+        margin-top: 3.2rem;
+        margin-bottom: 1rem;
+    }
+
+    #Laguna {
+        margin-top: 3.2rem;
+        margin-bottom: 1rem;
+    }
+
+    #HardRock02 {
+        margin-top: 3.2rem;
+        margin-bottom: 1rem;
+    }
+
+    #SC {
+        margin-top: 2.99rem;
+        margin-bottom: 1rem;
+    }
+
+    #CJ {
+        margin-top: 3.03em;
+        margin-bottom: 1rem;
+    }
+
+    #Maceio {
+        margin-top: 4.8em;
+        margin-bottom: 1rem;
+    }
+
+    #F {
+        margin-top: 4.8em;
+        margin-bottom: 1rem;
+    }
+}
+
+@media(max-width: 576px) {
+    .sumir {
+        display: none;
+    }
+
+    .aparecer {
+        display: inline;
+    }
+
+    .p-0 {
+        padding-top: 0rem !important;
+        padding-left: 1rem !important;
+        padding-bottom: 0rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .card {
+        box-shadow: 0 12px 20px rgba(68, 68, 68, 0.2);
+        height: 28rem;
+    }
+
+    .titulo {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 7%;
+        color: #fff;
+        text-align: center;
+        opacity: .5;
+        transition: opacity .15s ease;
+    }
+
+    #BoraBora {
+        margin-top: 4.6rem;
+        margin-bottom: 1rem;
+    }
+
+    #FN {
+        margin-top: 4.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #Veneza {
+        margin-top: 6.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #Gramado {
+        margin-top: 4.7rem;
+        margin-bottom: 1rem;
+    }
+
+    #HardRock {
+        margin-top: 4.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #Bupitanga {
+        margin-top: 4.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #Laguna {
+        margin-top: 4.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #HardRock02 {
+        margin-top: 4.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #SC {
+        margin-top: 4.59rem;
+        margin-bottom: 1rem;
+    }
+
+    #CJ {
+        margin-top: 4.58em;
+        margin-bottom: 1rem;
+    }
+
+    #Maceio {
+        margin-top: 6.5em;
+        margin-bottom: 1rem;
+    }
+
+    #F {
+        margin-top: 6.5em;
+        margin-bottom: 1rem;
+    }
+
+}
